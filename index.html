@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+
+        <form id="loginForm">
+            <input type="email" id="loginEmail"
+                   placeholder="Enter email" required>
+
+            <input type="password" id="loginPassword"
+                   placeholder="Enter password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="loginMessage" aria-live="polite"></p>
+
+        <p>New user?
+            <a href="register.html">Create an account</a>
+        </p>
+    </div>
+</body>
+</html>
